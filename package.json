@@ -1,11 +1,16 @@
 {
-  "name": "orgui-react",
+  "name": "@orgplace/orgui-react",
   "version": "0.1.0",
   "description": "React Components Implementation of Org UI",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "index.js",
   "scripts": {
     "build": "tsc --project .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf *.js *.d.ts"
   },
   "repository": {
     "type": "git",
@@ -19,6 +24,7 @@
   "homepage": "https://github.com/orgplace/orgui-react#readme",
   "devDependencies": {
     "eslint": "^5.16.0",
+    "eslint-config-react-app": "^4.0.1",
     "typescript": "^3.4.5"
   },
   "dependencies": {
