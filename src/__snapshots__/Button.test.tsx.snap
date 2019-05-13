@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OuiButton 1`] = `
+<button
+  className="ouiButton"
+>
+  test
+</button>
+`;

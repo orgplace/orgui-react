@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OuiInputText 1`] = `
+<input
+  className="ouiInputText"
+  type="text"
+/>
+`;

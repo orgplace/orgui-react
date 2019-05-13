@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OuiSwitch 1`] = `
+<label
+  className="ouiSwitch"
+>
+  <input
+    className="ouiSwitch__input"
+    type="checkbox"
+  />
+  <span
+    className="ouiSwitch__slider"
+  />
+</label>
+`;

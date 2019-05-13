@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OuiOutput 1`] = `
+<output
+  className="ouiOutput"
+>
+  test
+</output>
+`;

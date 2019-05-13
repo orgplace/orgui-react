@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OuiInputSelect 1`] = `
+<select
+  className="ouiInputSelect"
+>
+  <option>
+    A
+  </option>
+</select>
+`;

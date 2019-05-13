@@ -20,3 +20,4 @@ node_modules/
 # Built files
 /*.js
 /*.d.ts
+!/jest.config.js

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OuiInputCheck 1`] = `
+<label
+  className="ouiInputCheck"
+>
+  <input
+    className="ouiInputCheck__input"
+    type="checkbox"
+  />
+  <span
+    className="ouiInputCheck__text"
+  />
+</label>
+`;
