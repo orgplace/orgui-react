@@ -1,5 +1,5 @@
-import React from 'react';
 import classNames from 'classnames';
+import React from 'react';
 
 const OuiAssistItem: React.FC<{selected?: boolean}> = (props) => (
   <div className={classNames('ouiAssistItem', {'isSelected': props.selected})}>
@@ -21,7 +21,10 @@ class OuiAssist<S = string> extends React.Component<AssistAttributes<S>, {focus:
     };
   }
 
-  private showSuggests() {
+  private onFocus = () => this.setState({focus: true});
+  private onBlur = () => this.setState({focus: false});
+
+  private shouldShowSuggests() {
     return this.state.focus && !!this.props.suggests.length;
   }
 
@@ -31,10 +34,10 @@ class OuiAssist<S = string> extends React.Component<AssistAttributes<S>, {focus:
       <div className="ouiAssist">
         {React.cloneElement(child, {
           className: classNames(child.props.className, 'ouiAssist__target'),
-          onFocus: () => this.setState({focus: true}),
-          onBlur: () => this.setState({focus: false}),
+          onFocus: this.onFocus,
+          onBlur: this.onBlur,
         })}
-        {this.showSuggests() && <div className="ouiAssist__suggest">
+        {this.shouldShowSuggests() && <div className="ouiAssist__suggest">
           {this.props.suggests.map(this.props.renderSuggest)}
         </div>}
       </div>
@@ -57,4 +60,4 @@ function clip(min: number, x: number, max: number) {
   return Math.max(min, Math.min(x, max));
 }
 
-export {OuiAssist, OuiAssistItem};
+export { OuiAssist, OuiAssistItem };
