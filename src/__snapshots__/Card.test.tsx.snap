@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OuiCard 1`] = `
+<div
+  className="ouiCard"
+>
+  <h1
+    className="ouiCardItem"
+  >
+    Sample
+  </h1>
+  <div
+    className="ouiCardItem"
+  >
+    Contents
+  </div>
+</div>
+`;

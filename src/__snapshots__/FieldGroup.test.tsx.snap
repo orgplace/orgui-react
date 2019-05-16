@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OuiFieldGroup 1`] = `
+<div
+  className="ouiFieldGroup isRequired"
+>
+  <label
+    className="ouiFieldGroup__label"
+  >
+    <span
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Label
+    </span>
+  </label>
+  <input
+    className="ouiInputText ouiFieldGroup__child"
+    type="text"
+  />
+  <div
+    className="ouiFieldGroup__helpText"
+  >
+    help
+  </div>
+</div>
+`;

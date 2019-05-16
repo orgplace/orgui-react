@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OuiBreadcrumb 1`] = `
+<nav
+  className="ouiBreadcrumb"
+>
+  <a
+    className="ouiBreadcrumbItem"
+    href="#"
+  >
+    A
+  </a>
+  <a
+    className="ouiBreadcrumbItem"
+    href="#"
+  >
+    B
+  </a>
+  <a
+    className="ouiBreadcrumbItem"
+    href="#"
+  >
+    C
+  </a>
+</nav>
+`;
